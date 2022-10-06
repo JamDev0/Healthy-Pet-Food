@@ -16,7 +16,7 @@ export function Members() {
   return(
     <main className='flex flex-col items-center px-20 py-24 bg-surfaces-primary'>
       <section className="flex flex-wrap justify-center gap-x-16 gap-y-14 mb-10">
-        <section className="flex flex-col items-center gap-y-2">
+        <a href='https://www.instagram.com/victoria_.ester/' className="flex flex-col items-center gap-y-2">
           <img src={Victoria} className="w-48 mb-4" />
 
           <h2 className="text-xl text-surfaces-text-paragraph">
@@ -24,9 +24,9 @@ export function Members() {
           </h2>
 
           <p className="text-xl text-surfaces-text-paragraph">Victoria</p>
-        </section>
+        </a>
 
-        <section className="flex flex-col items-center gap-y-2">
+        <a href='https://www.instagram.com/jamdev0/' className="flex flex-col items-center gap-y-2">
           <img src={Juan} className="w-48 mb-4" />
 
           <h2 className="text-xl text-surfaces-text-paragraph">
@@ -34,9 +34,9 @@ export function Members() {
           </h2>
 
           <p className="text-xl text-surfaces-text-paragraph">Juan</p>
-        </section>
+        </a>
 
-        <section className="flex flex-col items-center gap-y-2">
+        <a href='https://www.instagram.com/mari_vieiraaf/' className="flex flex-col items-center gap-y-2">
           <img src={Marina} className="w-48 mb-4" />
 
           <h2 className="text-xl text-surfaces-text-paragraph">
@@ -44,9 +44,9 @@ export function Members() {
           </h2> 
 
           <p className="text-xl text-surfaces-text-paragraph">Marina</p>
-        </section>
+        </a>
 
-        <section className="flex flex-col items-center gap-y-2">
+        <a href='https://www.instagram.com/uvicx._zx/' className="flex flex-col items-center gap-y-2">
           <img src={Victor} className="w-48 mb-4" />
 
           <h2 className="text-xl text-surfaces-text-paragraph">
@@ -54,7 +54,7 @@ export function Members() {
           </h2>
 
           <p className="text-xl text-surfaces-text-paragraph">Victor</p>
-        </section>
+        </a>
       </section>
 
       <div className='w-full h-[5px] bg-brand-green-500'></div>
