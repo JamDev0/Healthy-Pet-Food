@@ -26,7 +26,7 @@ export function Techs() {
           <img src={CanvaIcon} className="w-32 mb-4" />
 
           <p className='text-base text-surfaces-text-paragraph text-center'>
-            Usamos o canva para o desenvolvimento de design
+            Usamos o canva para o desenvolvimento do design
           </p>
         </section>
 
@@ -62,7 +62,7 @@ export function Techs() {
           <img src={ReactLogo} className="w-72 mb-4" />
 
           <p className='text-base text-surfaces-text-paragraph text-center'>
-          O React é a biblioteca do JavaScript,  usada para construir uma interface de usuário 
+            O React é a biblioteca do JavaScript, usada para construir a interface de usuário 
           </p>
         </section>
 
@@ -70,7 +70,7 @@ export function Techs() {
           <img src={TailwindLogo} className="w-72 mb-4" />
 
           <p className='text-base text-surfaces-text-paragraph text-center'>
-          Tailwind permite maior controle na linguagem visual, mais leve para facilitar o desenvolvimento
+            Tailwind permite maior controle na estilização dos componentes e é mais leve para facilitar o desenvolvimento
           </p>
         </section>
 
@@ -78,7 +78,7 @@ export function Techs() {
           <img src={ViteLogo} className="w-72 mb-4" />
 
           <p className='text-base text-surfaces-text-paragraph text-center'>
-          É uma ferramenta de construção que foi inicialmente desenvolvida para Vue. js. 
+            É uma ferramenta para construção de aplicações.
           </p>
         </section>
 
@@ -86,7 +86,7 @@ export function Techs() {
           <img src={ArduinoLogo} className="w-72 mb-4" />
 
           <p className='text-base text-surfaces-text-paragraph text-center'>
-          Integrated Development Environment, usado  para escrever e fazer upload de programas em placas compatíveis com Arduino
+            Integrated Development Environment, é usado para escrever e fazer upload de programas em placas compatíveis com Arduino
           </p>
         </section>
       </section>

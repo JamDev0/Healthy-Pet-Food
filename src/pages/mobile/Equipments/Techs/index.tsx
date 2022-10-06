@@ -26,7 +26,7 @@ export function TechsMobile() {
           <img src={CanvaIcon} className="w-32 mb-4" />
 
           <p className='text-base text-surfaces-text-paragraph text-center'>
-            Usamos o canva para o desenvolvimento de design
+            Usamos o canva para o desenvolvimento do design
           </p>
         </section>
 
@@ -62,7 +62,7 @@ export function TechsMobile() {
           <img src={ReactLogo} className="w-72 mb-4" />
 
           <p className='text-base text-surfaces-text-paragraph text-center'>
-            Usamos o canva para o desenvolvimento de design
+          O React é a biblioteca do JavaScript, usada para construir a interface de usuário 
           </p>
         </section>
 
@@ -70,7 +70,7 @@ export function TechsMobile() {
           <img src={TailwindLogo} className="w-72 mb-4" />
 
           <p className='text-base text-surfaces-text-paragraph text-center'>
-            Figma, usado para a prototipagem e desenvolvimento do site 
+          Tailwind permite maior controle na estilização dos componentes e é mais leve para facilitar o desenvolvimento 
           </p>
         </section>
 
@@ -78,7 +78,7 @@ export function TechsMobile() {
           <img src={ViteLogo} className="w-72 mb-4" />
 
           <p className='text-base text-surfaces-text-paragraph text-center'>
-            Photoshop, usado para a edição de algumas imagens 
+          É uma ferramenta para construção de aplicações.
           </p>
         </section>
 
@@ -86,7 +86,7 @@ export function TechsMobile() {
           <img src={ArduinoLogo} className="w-72 mb-4" />
 
           <p className='text-base text-surfaces-text-paragraph text-center'>
-            Visual studio code, usado para a produção do site
+          Integrated Development Environment, é usado para escrever e fazer upload de programas em placas compatíveis com Arduino
           </p>
         </section>
       </section>

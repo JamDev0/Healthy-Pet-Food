@@ -18,7 +18,7 @@ export function DesktopAbout() {
           </h2>
 
           <p className='text-surfaces-text-paragraph text-base'>
-            Uma participante do nosso grupo sempre tinha muita dificuldade em pesquisar quais alimentos poderiam ou não fazer bem para sua pet. Sempre tinha que pesquisar em vários sites que diziam informações diferentes e aumentava cada vez mais sua inseguranças na hora de alimenta-la com produtos naturais. Nossa ideia foi fazer algum projeto que desse mais segurança e diminuísse a preocupação não só dela mas de outros tutores que amam seus bichinhos.
+            Uma participante do nosso grupo sempre teve muita dificuldade em pesquisar quais alimentos poderiam ou não fazer bem para sua pet. Sempre tinha que pesquisar em vários sites, que diziam informações diferentes e aumentavam cada vez mais sua insegurança na hora de alimenta-la com produtos naturais. Nossa ideia foi fazer um projeto que desse mais segurança e diminuísse a preocupação não só dela mas de outros donos que amam seus bichinhos.
           </p>
         </section>
 
@@ -34,7 +34,7 @@ export function DesktopAbout() {
           </h2>
 
           <p className='text-surfaces-text-paragraph text-base'>
-            Acreditamos que nosso TCC pode salvar a vida de muitos animais, já que muitos tutores dão alimentos que nos fazem bem mas para os animais se torna prejudicial ou mortal. Precisamos combater a desinformação.
+            Acreditamos que nosso TCC pode salvar a vida de muitos animais, já que muitos tutores dão alimentos que nos fazem bem, mas para os animais se tornam prejudiciais ou mortais. Precisamos combater a desinformação.
           </p>
         </section>
       </section>
@@ -46,7 +46,7 @@ export function DesktopAbout() {
           </h2>
 
           <p className='text-surfaces-text-paragraph text-base mb-4'>
-            A nutrição do animal é extremamente importante, alimentando-os corretamente é possível melhorar a saúde e sua longevidade. Alguns benefícios de  uma  alimentação adequada 
+            A nutrição do animal é extremamente importante, alimentando-os corretamente é possível melhorar sua saúde e sua longevidade. Alguns benefícios de  uma  alimentação adequada:
           </p>
 
           <ul className='font-bold text-surfaces-text-headline list-disc list-inside'>

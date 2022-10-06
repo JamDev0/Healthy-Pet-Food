@@ -28,7 +28,7 @@ export function DesktopEquipmentContent() {
           </p>
 
           <p className='text-surfaces-text-paragraph text-base'>
-            Fornecida pela escola custa entre R$ 115,00 a R$ 150,00. 
+            Fornecida pela escola, custa entre R$ 115,00 e R$ 150,00. 
           </p>
         </section>
       </section>
@@ -46,7 +46,7 @@ export function DesktopEquipmentContent() {
           </p>
 
           <p className='text-surfaces-text-paragraph text-base'>
-            Fornecido pela escola, custa ente R$ 30,00 á R$  50,00. 
+            Fornecido pela escola, custa ente R$ 30,00 e R$  50,00. 
           </p>
         </section>
       </section>
@@ -60,7 +60,7 @@ export function DesktopEquipmentContent() {
           </h2>
 
           <p className='text-surfaces-text-paragraph text-base mb-8'>
-            O sensor de PH para arduino é um dispositivo de medição utilizados em vários setores, ele é capaz de medir a acidez de líquidos. 
+            O sensor de PH para arduino é um dispositivo de medição utilizado em vários setores, capaz de medir a acidez de líquidos. 
           </p>
 
           <p className='text-surfaces-text-paragraph text-base'>
@@ -78,11 +78,11 @@ export function DesktopEquipmentContent() {
           </h2>
 
           <p className='text-surfaces-text-paragraph text-base mb-8'>
-            O sensor é usado para detectar diversas cores variadas através do seu comprimento de onda. O seu sistema de analise RGB (Red, Green, Blue) pode-se determinar  variações de ondas, e então identificar a cor. 
+            O sensor é usado para detectar diversas cores a partir do comprimento de onda refletido.
           </p>
 
           <p className='text-surfaces-text-paragraph text-base'>
-            Custa entre R$ 34,00 a R$ 70,00. 
+            Custa entre R$ 34,00 e R$ 70,00. 
           </p>
         </section>
       </section>
@@ -96,7 +96,7 @@ export function DesktopEquipmentContent() {
           </h2>
 
           <p className='text-surfaces-text-paragraph text-base mb-8'>
-            Tela para transmitir as informações necessárias para o urnário.
+            Tela para transmitir as informações necessárias para o usuário.
           </p>
         </section>
       </section>
