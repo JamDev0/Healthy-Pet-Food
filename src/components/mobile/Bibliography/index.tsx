@@ -30,7 +30,7 @@ export function MobileBibliography() {
       </a>
 
       <a href='https://www.petz.com.br/blog/cachorros/frutas-que-cachorro-nao-pode-comer/' className="flex flex-col items-center px-10 py-4 bg-white rounded-lg shadow-xl max-w-[290px]">
-        <img src={Cam} className="w-24 h-24 mb-1" />
+        <img src={MagGlass} className="w-24 h-24 mb-1" />
 
         <div className='bg-brand-green-500 w-full h-[2px] mb-4'></div>
 
