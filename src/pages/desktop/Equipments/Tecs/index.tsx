@@ -62,7 +62,7 @@ export function Techs() {
           <img src={ReactLogo} className="w-72 mb-4" />
 
           <p className='text-base text-surfaces-text-paragraph text-center'>
-            Usamos o canva para o desenvolvimento de design
+          O React é a biblioteca do JavaScript,  usada para construir uma interface de usuário 
           </p>
         </section>
 
@@ -70,7 +70,7 @@ export function Techs() {
           <img src={TailwindLogo} className="w-72 mb-4" />
 
           <p className='text-base text-surfaces-text-paragraph text-center'>
-            Figma, usado para a prototipagem e desenvolvimento do site 
+          Tailwind permite maior controle na linguagem visual, mais leve para facilitar o desenvolvimento
           </p>
         </section>
 
@@ -78,7 +78,7 @@ export function Techs() {
           <img src={ViteLogo} className="w-72 mb-4" />
 
           <p className='text-base text-surfaces-text-paragraph text-center'>
-            Photoshop, usado para a edição de algumas imagens 
+          É uma ferramenta de construção que foi inicialmente desenvolvida para Vue. js. 
           </p>
         </section>
 
@@ -86,7 +86,7 @@ export function Techs() {
           <img src={ArduinoLogo} className="w-72 mb-4" />
 
           <p className='text-base text-surfaces-text-paragraph text-center'>
-            Visual studio code, usado para a produção do site
+          Integrated Development Environment, usado  para escrever e fazer upload de programas em placas compatíveis com Arduino
           </p>
         </section>
       </section>
