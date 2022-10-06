@@ -44,7 +44,7 @@ export function Content() {
       </h3>
 
       <p className="font-normal text-lg text-surfaces-text-paragraph mb-4">
-        Uma placa de prototipagem eletroniica que permite o desenvolvimento de projetos de automação. 
+        Uma placa de prototipagem eletrônica que permite o desenvolvimento de projetos de automação. 
       </p>
 
       <p className="font-normal text-lg text-surfaces-text-paragraph">
@@ -60,7 +60,7 @@ export function Content() {
       </h3>
 
       <p className="font-normal text-lg text-surfaces-text-paragraph mb-4">
-        É uma placa com furos de conexão condutoras para a montagem de circuitos, juntamente com a placa eletronica. 
+        É uma placa com furos de conexão condutoras para a montagem de circuitos, juntamente com a placa eletrônica. 
       </p>
 
       <p className="font-normal text-lg text-surfaces-text-paragraph">
@@ -76,7 +76,7 @@ export function Content() {
       </h3>
 
       <p className="font-normal text-lg text-surfaces-text-paragraph mb-4">
-        O sensor de PH para arduino é um dispositivo de medição ultilizados em varios setores, ele é capaz de medir a acidez de liquidos. 
+        O sensor de PH para arduino é um dispositivo de medição utilizados em vários setores, ele é capaz de medir a acidez de líquidos. 
       </p>
 
       <p className="font-normal text-lg text-surfaces-text-paragraph">
@@ -92,7 +92,7 @@ export function Content() {
       </h3>
 
       <p className="font-normal text-lg text-surfaces-text-paragraph mb-4">
-        O sensor é usado para detectar diversas cores variadas atraves do seu comprimento de onda. O seu sistema de analise RGB (Red, Green, Blue) pode-se determinar  variações de ondas, e então identificar a cor. 
+        O sensor é usado para detectar diversas cores variadas através do seu comprimento de onda. O seu sistema de analise RGB (Red, Green, Blue) pode-se determinar  variações de ondas, e então identificar a cor. 
       </p>
 
       <p className="font-normal text-lg text-surfaces-text-paragraph">
@@ -108,7 +108,7 @@ export function Content() {
       </h3>
 
       <p className="font-normal text-lg text-surfaces-text-paragraph">
-        Tela para transmitir as informações necessarioas para o uruario  
+        Tela para transmitir as informações necessários para o usuário  
       </p>
     </section>
   </section>

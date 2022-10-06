@@ -46,7 +46,7 @@ export function DesktopAbout() {
           </h2>
 
           <p className='text-surfaces-text-paragraph text-base mb-4'>
-            A nutição do animal é extremamente importante, alimentando-os corretamente é possivel melhorar a saúde e sua longevidade. Alguns beneficios de  uma  alimentação adequada 
+            A nutrição do animal é extremamente importante, alimentando-os corretamente é possível melhorar a saúde e sua longevidade. Alguns benefícios de  uma  alimentação adequada 
           </p>
 
           <ul className='font-bold text-surfaces-text-headline list-disc list-inside'>
