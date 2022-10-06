@@ -118,6 +118,10 @@ export function Content() {
         Funcionamento
       </h2>
 
+      <p className="mb-20 mx-10 text-surfaces-text-paragraph text-xl text-justify">
+        Através dos dados dos sensores presentes no projeto e um json com os perímetros de comparação, é possível descobrir qual fruta o usuário possui e assim podemos dizer para ele se aquela fruta é saudável ou não para o pet. Coo demonstrado a seguir
+      </p>
+
       <section className="flex flex-wrap gap-x-10 gap-y-10 justify-center">
         <img src={Caution} className="w-[42rem]" />
 
