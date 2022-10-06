@@ -1,8 +1,10 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useMobileMenu } from "../../../hooks/useMobileMenu";
 
 export function MobileMenu() {
-  const { isOpen } = useMobileMenu();
+  const { isOpen } = useMobileMenu()
+
+  const { pathname } = useLocation()
 
   return (
     <section className={`
@@ -10,15 +12,33 @@ export function MobileMenu() {
       ${isOpen ? '' : '-translate-y-full'}
     `}>
 
-      <Link to={"/"} className="text-2xl">
+      <Link
+        to={"/"}
+        className={`
+          text-2xl text-center
+          ${pathname === '/' ? '' : 'opacity-50'}
+        `}
+      >
         Home
       </Link>
 
-      <Link to={"/equipment"} className="text-2xl text-center">
+      <Link 
+        to={"/equipment"}
+        className={`
+          text-2xl text-center
+          ${pathname === '/equipment' ? '' : 'opacity-50'}
+        `}
+      >
         Equipamentos e funcionalidade 
       </Link>
 
-      <Link to={"/members"} className="text-2xl text-center">
+      <Link to={"/members"} 
+        className={`  
+          text-2xl text-center
+          ${pathname === '/members' ? '' : 'opacity-50'}
+        `}
+      >
+
         Integrantes
       </Link>
     </section>
