@@ -4,6 +4,11 @@ import Cat from '../../../../assets/Cat.png'
 
 import DogApple from '../../../../assets/DogApple.png'
 
+import DogIllustration from '../../../../assets/dogIllustration.svg'
+
+import CatIllustration from '../../../../assets/catIllustration.svg'
+
+
 export function DesktopAbout() {
   return(
     <section className='flex flex-col items-center py-16 px-28'>
@@ -37,6 +42,32 @@ export function DesktopAbout() {
             Acreditamos que nosso TCC pode salvar a vida de muitos animais, já que muitos tutores dão alimentos que nos fazem bem, mas para os animais se tornam prejudiciais ou mortais. Precisamos combater a desinformação.
           </p>
         </section>
+      </section>
+
+      <h2 className='text-surfaces-text-headline font-bold text-4xl mb-4 text-center'>
+        Apesar de alguns alimentos, principalmente frutas parecerem inofensivas para os eles podem ser péssimos para a saúde
+      </h2>
+
+      <h3 className='text-surfaces-text-paragraph text-xl mb-28 text-center mx-20'>
+        Alguns alimentos são benéficos para a saúde dos humanos, porém para a vida dos animais podem ser extremamente tóxicos, isso poruque o sitema dos bichinhos é totalmente diferente do nosso. 
+      </h3>
+
+      <section className='w-full'>
+        <header className='flex items-center w-full mb-24'>
+          <img src={DogIllustration} className="w-64" alt="Ilustração de um gato" />
+
+          <h2 className='text-surfaces-text-headline font-bold text-4xl mb-4 text-center'>
+            Conheça um pouco do sitema dos pets
+          </h2>
+          
+          <img src={CatIllustration} className="w-64" alt="Ilustração de um gato" />
+        </header>
+
+        <main className='flex flex-col gap-y-24'>
+          <section>
+            
+          </section>
+        </main>
       </section>
 
       <section className='flex justify-between items-center w-full'>
