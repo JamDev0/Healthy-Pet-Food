@@ -8,6 +8,9 @@ import DogIllustration from '../../../../assets/dogIllustration.svg'
 
 import CatIllustration from '../../../../assets/catIllustration.svg'
 
+import DogPal from '../../../../assets/petInfoIllustrations/dogPal.svg'
+
+import CatPal from '../../../../assets/petInfoIllustrations/catPal.svg'
 
 export function DesktopAbout() {
   return(
@@ -63,10 +66,27 @@ export function DesktopAbout() {
           <img src={CatIllustration} className="w-64" alt="Ilustração de um gato" />
         </header>
 
-        <main className='flex flex-col gap-y-24'>
-          <section>
-            
-          </section>
+        <main className='grid grid-cols-5 items-center gap-y-16'>
+          <img src={DogPal} />
+
+          <p className='text-base text-surfaces-text-paragraph'>Os cães possuem um paladar muito diferenciado. Enquanto os seres humanos tem 9.000 papilas gustativas os cães tem apenas 1.700. Eles não escolhem as coisas pelo sabor mais sim pelo seu cheiro. </p>
+
+          <h2 className='text-surfaces-text-headline font-bold text-4xl mb-4 text-center'>Paladar</h2>
+
+          <p className='text-end text-base text-surfaces-text-paragraph'>A língua dos gatinhos é muito ultil na hora da limpeza, porém não os ajuda a decifrar sabores. São muito diferentes comparado aos cachorros possuem apenas 400 papilas gustativas.</p> 
+          
+          <img src={CatPal} />
+
+
+          <img src={DogPal} />
+
+          <p className='text-base text-surfaces-text-paragraph'>Os cães possuem um paladar muito diferenciado. Enquanto os seres humanos tem 9.000 papilas gustativas os cães tem apenas 1.700. Eles não escolhem as coisas pelo sabor mais sim pelo seu cheiro. </p>
+
+          <h2 className='text-surfaces-text-headline font-bold text-4xl mb-4 text-center'>Paladar</h2>
+
+          <p className='text-end text-base text-surfaces-text-paragraph'>A língua dos gatinhos é muito ultil na hora da limpeza, porém não os ajuda a decifrar sabores. São muito diferentes comparado aos cachorros possuem apenas 400 papilas gustativas.</p> 
+          
+          <img src={CatPal} />
         </main>
       </section>
 
