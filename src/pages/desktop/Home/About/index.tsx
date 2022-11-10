@@ -12,6 +12,24 @@ import DogPal from '../../../../assets/petInfoIllustrations/dogPal.svg'
 
 import CatPal from '../../../../assets/petInfoIllustrations/catPal.svg'
 
+import DogNose from '../../../../assets/petInfoIllustrations/dogNose.svg'
+
+import CatNose from '../../../../assets/petInfoIllustrations/catNose.svg'
+
+import DogBite from '../../../../assets/petInfoIllustrations/dogBite.svg'
+
+import CatBite from '../../../../assets/petInfoIllustrations/catBite.svg'
+
+import DogInt from '../../../../assets/petInfoIllustrations/dogInt.svg'
+
+import CatInt from '../../../../assets/petInfoIllustrations/catInt.svg'
+
+import DogStomach from '../../../../assets/petInfoIllustrations/dogStomach.svg'
+
+import CatStomach from '../../../../assets/petInfoIllustrations/catStomach.svg'
+
+import Jose from '../../../../assets/Jose.svg'
+
 export function DesktopAbout() {
   return(
     <section className='flex flex-col items-center py-16 px-28'>
@@ -55,7 +73,7 @@ export function DesktopAbout() {
         Alguns alimentos são benéficos para a saúde dos humanos, porém para a vida dos animais podem ser extremamente tóxicos, isso poruque o sitema dos bichinhos é totalmente diferente do nosso. 
       </h3>
 
-      <section className='w-full'>
+      <section className='w-full mb-32'>
         <header className='flex items-center w-full mb-24'>
           <img src={DogIllustration} className="w-64" alt="Ilustração de um gato" />
 
@@ -78,19 +96,49 @@ export function DesktopAbout() {
           <img src={CatPal} />
 
 
-          <img src={DogPal} />
+          <img src={DogNose} />
 
-          <p className='text-base text-surfaces-text-paragraph'>Os cães possuem um paladar muito diferenciado. Enquanto os seres humanos tem 9.000 papilas gustativas os cães tem apenas 1.700. Eles não escolhem as coisas pelo sabor mais sim pelo seu cheiro. </p>
+          <p className='text-base text-surfaces-text-paragraph'>Os cães possuem um ofalto muito sensível, mais do que os humanos e gatos.  conseguem sentir cheiros atraentes de longe.  </p>
 
-          <h2 className='text-surfaces-text-headline font-bold text-4xl mb-4 text-center'>Paladar</h2>
+          <h2 className='text-surfaces-text-headline font-bold text-4xl mb-4 text-center'>Olfato</h2>
 
-          <p className='text-end text-base text-surfaces-text-paragraph'>A língua dos gatinhos é muito ultil na hora da limpeza, porém não os ajuda a decifrar sabores. São muito diferentes comparado aos cachorros possuem apenas 400 papilas gustativas.</p> 
+          <p className='text-end text-base text-surfaces-text-paragraph'>Os cheiros tem um papel muito importante na vida dos gatos, possuem cerca de 200 milhões de células olfativas. o que leva eles a escolherem a comida pelo cheiro. </p> 
           
-          <img src={CatPal} />
+          <img src={CatNose} />
+
+          <img src={DogBite} />
+
+          <p className='text-base text-surfaces-text-paragraph'>Os cães possuem mandíbulas e dentes fortes, desenvolvidos para rasgar e cortar o alimento.</p>
+
+          <h2 className='text-surfaces-text-headline font-bold text-4xl mb-4 text-center'>Mastigação</h2>
+
+          <p className='text-end text-base text-surfaces-text-paragraph'>O gatos não mastigam muito, com um tempo curto já que sua dentição é voltada para a perfuração de alimentos.</p> 
+          
+          <img src={CatBite} />
+
+          <img src={DogInt} />
+
+          <p className='text-base text-surfaces-text-paragraph'>O processo no intestino dos cães é muito lento. Ele também é curto de 20 a 80 cm.</p>
+
+          <h2 className='text-surfaces-text-headline font-bold text-4xl mb-4 text-center'>Intestino</h2>
+
+          <p className='text-end text-base text-surfaces-text-paragraph'>Assim como os cachorros os gatos possuem um intestino lento e curto de 9 á 72 cm em algumas raças. </p> 
+          
+          <img src={CatInt} />
+
+          <img src={DogStomach} />
+
+          <p className='text-base text-surfaces-text-paragraph'>Os cães possuem o volume estomacal muito grande em algumas raças pode variar de 6 á 8 litros. </p>
+
+          <h2 className='text-surfaces-text-headline font-bold text-4xl mb-4 text-center'>Estomago</h2>
+
+          <p className='text-end text-base text-surfaces-text-paragraph'>Os gatos por serem animais de porte menor possuem um estomago médio variando de 300 á 350 ml.</p> 
+          
+          <img src={CatStomach} />
         </main>
       </section>
 
-      <section className='flex justify-between items-center w-full'>
+      <section className='flex justify-between items-center w-full mb-32'>
         <section className='bg-white px-6 py-4 rounded-md shadow-lg h-fit max-w-xl'>
           <h2 className='font-bold text-surfaces-text-headline text-2xl mb-6'>
             Benefícios  
@@ -109,6 +157,15 @@ export function DesktopAbout() {
         </section>
 
         <img src={DogApple} alt="" className='w-[26rem]' />
+      </section>
+
+      <section className="flex gap-x-4 items-center">
+        <img className="" src={Jose} />
+
+        <section>
+          <h2 className="text-2xl text-surfaces-text-headline font-bold">Veterinário: José da Silva Fontes</h2>
+          <p className="text-2xl text-surfaces-text-paragraph">Para a comprovação  e base de nosso projeto tivemos  o auxílio de um veterinário especializado em cães e gatos. Que nos ajudou a compreender melhor a necessidade de uma boa alimentação para a vida dos pets. </p>
+        </section>
       </section>
     </section>
   )
